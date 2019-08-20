@@ -75,3 +75,58 @@ h2{
     width: 100px;
 
 }
+
+
+/* portfolio.html stylings */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  .portfolioImages {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    height: 180px;
+    width: 180px;
+  }
+
+  .image {
+    position: relative;
+    width: 100%;
+ }
+
+.image h2 {
+    position: absolute;
+    top: 171px;
+    left: 61px;
+    color: white;
+    background-color: #48ABA8;
+}
+
+
+
+  /* contact page stylings */
+
+  .containerContact{
+      background-color: #fafafa;
+      height: 500px
+  }
+
+  label{
+      display: block;
+
+  }
+
+  button{
+      display: block;
+  }
+
+  #name-input,
+  #email-input{
+    width: 615px;
+  }
+
