@@ -1,132 +1,119 @@
-
-.wrapper{
-height: 960px;
-background-color: #fafafa;
-background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
-margin: 0px;
+.wrapper {
+	height: 960px;
+	background-color: #fafafa;
+	background-image: url('https://www.transparenttextures.com/patterns/asfalt-dark.png');
+	margin: 0px;
 }
 
 .containerMainPage,
 .headerWrapper,
-.innerHeaderWrapper{
-    margin: 0px auto;
-    max-width: 960px;
+.innerHeaderWrapper {
+	margin: 0px auto;
+	max-width: 960px;
 }
 
-
-.containerMainPage{
-    background-color: #FFFFFF;
+.containerMainPage {
+	background-color: #ffffff;
 }
 
-
-.headerWrapper{
-    background-color: #FFFFFE;
-    height: 57px;
-    max-width: unset;
+.headerWrapper {
+	background-color: #fffffe;
+	height: 57px;
+	max-width: unset;
 }
 
-
-
-p{
-    width: 600px;
-    display: inline-block;
-    padding: 7px;
-    margin: 5px;
-    color: gray;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+p {
+	width: 600px;
+	display: inline-block;
+	padding: 7px;
+	margin: 5px;
+	color: gray;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-
-hr{
-    color: lightgray;
+hr {
+	color: lightgray;
 }
 
-header{
-    background-color: #48ABA8;
-    width: 86px;
-    display: inline-block;
-    height: 34px;
-    width: 150px;
-    text-align: center;
-    padding-top: 20px;
-    color: white;
-    font-style: bold;
-    font-weight: bold;
-
+header {
+	background-color: #48aba8;
+	width: 86px;
+	display: inline-block;
+	height: 34px;
+	width: 150px;
+	text-align: center;
+	padding-top: 20px;
+	color: white;
+	font-style: bold;
+	font-weight: bold;
 }
 
-nav{
-    display: inline-block;
-    float: right;
-    padding: 15px;
+nav {
+	display: inline-block;
+	float: right;
+	padding: 15px;
 }
 
-a{
-    color: lightgray;
-    padding: 8px;
+a {
+	color: lightgray;
+	padding: 8px;
 }
 
-h2{
-    color:#49AAA8;
+h2 {
+	color: #49aaa8;
 }
 
-.profilePic{
-    height: 100px;
-    width: 100px;
-
+.profilePic {
+	height: 100px;
+	width: 100px;
 }
-
 
 /* portfolio.html stylings */
 
 .grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 10px;
-  }
-  .portfolioImages {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-    height: 180px;
-    width: 180px;
-  }
-
-  .image {
-    position: relative;
-    width: 100%;
- }
-
-.image h2 {
-    position: absolute;
-    top: 171px;
-    left: 61px;
-    color: white;
-    background-color: #48ABA8;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding: 10px;
+}
+.portfolioImages {
+	background-color: rgba(255, 255, 255, 0.8);
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	padding: 20px;
+	font-size: 30px;
+	text-align: center;
+	height: 180px;
+	width: 180px;
 }
 
+.image {
+	position: relative;
+	width: 100%;
+}
 
+.image h2 {
+	position: absolute;
+	top: 171px;
+	left: 61px;
+	color: white;
+	background-color: #48aba8;
+}
 
-  /* contact page stylings */
+/* contact page stylings */
 
-  .containerContact{
-      background-color: #fafafa;
-      height: 500px
-  }
+.containerContact {
+	background-color: #fafafa;
+	height: 500px;
+}
 
-  label{
-      display: block;
+label {
+	display: block;
+}
 
-  }
+button {
+	display: block;
+}
 
-  button{
-      display: block;
-  }
-
-  #name-input,
-  #email-input{
-    width: 615px;
-  }
-
+#name-input,
+#email-input {
+	width: 615px;
+}
