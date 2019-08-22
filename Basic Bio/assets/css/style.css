@@ -1,3 +1,4 @@
+/* main page stylings  */
 .wrapper {
 	height: 960px;
 	background-color: #fafafa;
@@ -22,13 +23,21 @@
 	max-width: unset;
 }
 
+section{
+    display: inline;
+}
+
 p {
-	width: 600px;
+	width: 784px;
 	display: inline-block;
 	padding: 7px;
 	margin: 5px;
 	color: gray;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bigger-width{
+    width: 890px;
 }
 
 hr {
@@ -59,45 +68,61 @@ a {
 	padding: 8px;
 }
 
-h2 {
-	color: #49aaa8;
-}
+
 
 .profilePic {
 	height: 100px;
 	width: 100px;
 }
 
+h2 {
+    color: #48aba8;
+}
+
 /* portfolio.html stylings */
 
 .grid-container {
-	display: grid;
-	grid-template-columns: auto auto auto;
-	padding: 10px;
-}
-.portfolioImages {
-	background-color: rgba(255, 255, 255, 0.8);
-	border: 1px solid rgba(0, 0, 0, 0.8);
-	padding: 20px;
-	font-size: 30px;
-	text-align: center;
-	height: 180px;
-	width: 180px;
+        display: grid;
+        grid-gap: 5rem;
+        grid-template-columns:  repeat(3, 200px);
+        grid-template-rows: repeat(2, 100px);
+        padding: 60px;
 }
 
-.image {
-	position: relative;
-	width: 100%;
+.marriott-image {
+    background: url(/assets/images/Marriott.jpg);
+    background-size: cover;
+
 }
 
-.image h2 {
-	position: absolute;
-	top: 171px;
-	left: 61px;
-	color: white;
-	background-color: #48aba8;
+.nuance-image{
+    background: url(/assets/images/NuanceAI.png);
+    background-size: cover;
 }
 
+.sava-senior-image{
+    background: url(/assets/images/savaseniorcare2.jpg);
+    background-size: cover;
+}
+
+.future-developer{
+    background: url(/assets/images/futuresoftware.jpg);
+    background-size: cover;
+}
+
+.engineer{
+    background: url(/assets/images/developerimage.jpg);
+    background-size: cover;
+}
+
+h4{
+    text-align: center;
+    background: #48aba8;
+    color: white;
+    margin-top: 96px;
+    height: 40px;
+    font-size: 25px;
+}
 /* contact page stylings */
 
 .containerContact {
@@ -117,3 +142,5 @@ button {
 #email-input {
 	width: 615px;
 }
+
+
